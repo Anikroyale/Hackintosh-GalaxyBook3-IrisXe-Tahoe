@@ -284,6 +284,12 @@
 					<key>Custom ADB Map</key>
 					<array>
 						<string>;Items must be strings in the form of scanfrom=adbto (in hex)</string>
+						<string>3c=6b;F2 to Apple Brightness Down (F14)</string>
+						<string>3d=71;F3 to Apple Brightness Up (F15)</string>
+						<string>e005=6b;Fn+F2 to Apple Brightness Down</string>
+						<string>e006=71;Fn+F3 to Apple Brightness Up</string>
+						<string>e008=71;Samsung Brightness Up</string>
+						<string>e009=6b;Samsung Brightness Down</string>
 					</array>
 					<key>Custom PS2 Map</key>
 					<array>
@@ -589,6 +595,16 @@
 							<string>e020</string>
 							<string>e02e</string>
 							<string>e030</string>
+						</array>
+						<key>Custom ADB Map</key>
+						<array>
+							<string>;Items must be strings in the form of scanfrom=adbto (in hex)</string>
+							<string>3c=6b;F2 to Apple Brightness Down (F14)</string>
+							<string>3d=71;F3 to Apple Brightness Up (F15)</string>
+							<string>e005=6b;Fn+F2 to Apple Brightness Down</string>
+							<string>e006=71;Fn+F3 to Apple Brightness Up</string>
+							<string>e008=71;Samsung Brightness Up</string>
+							<string>e009=6b;Samsung Brightness Down</string>
 						</array>
 					</dict>
 				</dict>
